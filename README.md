@@ -24,14 +24,13 @@ Abaixo, a comparação das métricas de qualidade entre o projeto original e a v
 
 | Métrica | 🔴 Original (Vanilla JS) | 🟢 Next.js (Atual) | Análise da Variação |
 | :--- | :---: | :---: | :--- |
-| **Performance** | **96** | **90** | **Leve Recuo:** O HTML puro é renderizado imediatamente. O Next.js introduz o custo da renderização para tornar a página interativa. Porém, ganhamos em **LCP estável**. |
+| **Performance** | **96** | **100** | **Performance aumentada:** Mesmo com a renderização quase instantânea do HTML puro, o next.Js se sobrepõe devido sua otimização de imagens e metadados, o que reflete a alte performance e SEO. |
 | **Acessibilidade** | **80** | **93** | **Melhoria:** A migração substituiu `divs` genéricas por tags semânticas (`<main>`, `<header>`) e melhorou a estrutura de navegação com o componente `<Link>`, facilitando o uso por leitores de tela. |
 | **Best Practices** | **100** | **96** | **Manutenção:** A pontuação permanece em nível de excelência, garantindo segurança (HTTPS) e código moderno. A pequena variação deve-se a avisos de resolução de imagem intrínseca. |
 | **SEO** | **82** | **91** | **Ponto de melhora:** A queda ocorre porque a otimização dos metadados dinâmicos não ocorre no HTML puro, o que colabora com a grande diferença entre o Next e o HTML puro. |
 
 ## Next.js Lighthouse
-<img width="531" height="789" alt="image" src="https://github.com/user-attachments/assets/218ae315-5ea6-4d36-b41d-71cc031080c3" />
-
+<img width="525" height="781" alt="image" src="https://github.com/user-attachments/assets/99da8bbb-6709-49a6-af29-b37ff38e82ef" />
 
 ## HTML Puro Lighthouse
 ![img](Untitled2.png)
